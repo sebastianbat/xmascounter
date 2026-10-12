@@ -1,0 +1,22 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.countdown {
+  display: flex;
+  gap: 2rem;
+}
+
+.unit {
+  text-align: center;
+}
+
+.unit div {
+  font-size: 2rem;
+  font-weight: bold;
+}
